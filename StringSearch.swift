@@ -100,7 +100,30 @@ extension String {
     func toArray(separatedBy sep: String) ->[String]{
         return self.findAllBetween(startPoint: sep, endPoint: sep)
     }
-
+    
+    func hasLetters() -> Bool {
+        for chr in self.characters {
+            if ((chr >= "a" && chr <= "z") || (chr >= "A" && chr <= "Z") ) {
+                return true
+            }
+        }
+        return false
+    }
+    func hasNumbers() -> Bool {
+        for chr in self.characters {
+            if ((chr >= "0" && chr <= "9")) {
+                return true
+            }
+        }
+        return false
+    }
+    func hasCharacters() -> Bool {
+        if self.hasLetters() || self.hasNumbers() {
+            return true
+        }
+        return false
+    }
+    
     subscript(str: String) -> String { // Returns all of string after given string ex: str["Find This"]
         return self.jumpTo(str)
     }
