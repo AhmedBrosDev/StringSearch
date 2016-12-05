@@ -19,7 +19,7 @@ extension String {
             self.removeWhitespace().length()
         }
     }
-    func index(str: String) -> Int{ // finds index of string eg: str["Find"] = 8
+    func index(str: String) -> Int{ // finds index of string ex: str["Find"] = 8
         var index: Int
         if let range = self.rangeOfString(str){
             index = self.startIndex.distanceTo(range.startIndex)
@@ -30,7 +30,7 @@ extension String {
         return index
     }
  
-    func occurancesOfString(str: String) -> Int // Counts occurances eg: Str.occurancesOfString["This"]
+    func occurancesOfString(str: String) -> Int // Counts occurances ex: Str.occurancesOfString["This"]
     {
         let num =  self.componentsSeparatedByString(str)
         return num.count-1
