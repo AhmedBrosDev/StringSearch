@@ -2,7 +2,7 @@
 //  StringSearch.swift
 //  TestingPolymorphism
 //
-//  Created by Syheed Ahmed on 6/10/15.
+//  Created by M. Ahmed on 6/10/15.
 //  Copyright (c) 2015 Syheed Ahmed. All rights reserved.
 //
 
