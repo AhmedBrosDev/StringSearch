@@ -1,9 +1,8 @@
 //
 //  StringSearch.swift
-//  TestingPolymorphism
 //
 //  Created by M. Ahmed on 6/10/15.
-//  Copyright (c) 2015 Syheed Ahmed. All rights reserved.
+//  Copyright (c) 2015 M. Ahmed. All rights reserved.
 //
 
 import Foundation
