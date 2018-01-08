@@ -1,2 +1,2 @@
-# StringSearch - Swift 2.0
-Several methods for simpler substring manipulation.
+# StringSearch
+Several methods for simpler substring manipulation in Swift 2.0
